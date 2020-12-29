@@ -1,8 +1,8 @@
-# CS425 MP3
+# Custom Map Reduce
 Contributers: Ayushi Singh, Sam Pal, and Rishu Bagga
 
 ## Overview
-For this MP, we run `threaded.go` on each machine, which acts as both a client (to send its membership list) and server (to continuously listen). We have one introducer machine and the rest are worker machines. Once all machines have joined the same membership list, any machine can invoke a `maple` task (which is similar to map) and a `juice` task (which is similar to reduce). To run these commands, they must be specified as such: <br>
+For this project, we run `threaded.go` on each machine, which acts as both a client (to send its membership list) and server (to continuously listen). We have one introducer machine and the rest are worker machines. Once all machines have joined the same membership list, any machine can invoke a `maple` task (which is similar to map) and a `juice` task (which is similar to reduce). To run these commands, they must be specified as such: <br>
 <br>`maple <maple_exe> <num_maples> <sdfs_intermediate_filename_prefix> <sdfs_src_directory>`</br>
 <br>`juice <juice_exe> <num_juices> <sdfs_intermediate_filename_prefix> <sdfs_dest_filename> delete_input={0,1}` </br>
 <br>
