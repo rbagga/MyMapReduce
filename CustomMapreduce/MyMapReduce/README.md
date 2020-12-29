@@ -1,5 +1,5 @@
 # CS425 MP3
-Group 17: Ayushi Singh, Sam Pal, and Rishu Bagga
+Contributers: Ayushi Singh, Sam Pal, and Rishu Bagga
 
 ## Overview
 For this MP, we run `threaded.go` on each machine, which acts as both a client (to send its membership list) and server (to continuously listen). We have one introducer machine and the rest are worker machines. Once all machines have joined the same membership list, any machine can invoke a `maple` task (which is similar to map) and a `juice` task (which is similar to reduce). To run these commands, they must be specified as such: <br>
